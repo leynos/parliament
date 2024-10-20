@@ -1,0 +1,13 @@
+[package]
+name = "parliament"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.9.0"
+indradb-lib = "4.0.0"
+indradb-proto = "4.0.0"
+serde = "1.0.210"
+serde_json = "1.0.132"
+uuid = "1.11.0"
+uuid7 = { version = "1.1.0", features = ["serde", "uuid"] }
